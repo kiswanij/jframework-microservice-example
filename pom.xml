@@ -21,13 +21,6 @@
 			<artifactId>smart-cloud-web</artifactId>
 			<version>${smart-cloud.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>com.jalalkiswani</groupId>
-			<artifactId>smart-cloud-data</artifactId>
-			<version>${smart-cloud.version}</version>
-		</dependency>
-
-
 	</dependencies>
 
 	<build>
