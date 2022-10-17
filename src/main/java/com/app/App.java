@@ -3,7 +3,7 @@ package com.app;
 import javax.ws.rs.ApplicationPath;
 
 import com.jk.web.embedded.JKWebApplication;
-import com.jk.web.services.server.JKServiceConfig;
+import com.jk.services.server.JKServiceConfig;
 
 @ApplicationPath("app")
 public class App extends JKServiceConfig{

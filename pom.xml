@@ -3,23 +3,23 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.jalalkiswani.examples</groupId>
-	<artifactId>smart-cloud-microservice-example</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>jk-framework-microservice-example</artifactId>
+	<version>6.0.0</version>
 	<packaging>war</packaging>
 	<properties>
-		<smart-cloud.version>4.0.8</smart-cloud.version>
+		<jk-framework.version>6.0.0</jk-framework.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>com.jalalkiswani</groupId>
-			<artifactId>smart-cloud-standalone</artifactId>
-			<version>${smart-cloud.version}</version>
+			<artifactId>jk-framework-standalone</artifactId>
+			<version>${jk-framework.version}</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.jalalkiswani</groupId>
-			<artifactId>smart-cloud-web</artifactId>
-			<version>${smart-cloud.version}</version>
+			<artifactId>jk-framework-service</artifactId>
+			<version>${jk-framework.version}</version>
 		</dependency>
 	</dependencies>
 
