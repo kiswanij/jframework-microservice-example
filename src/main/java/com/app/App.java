@@ -1,9 +1,9 @@
 package com.app;
 
-import javax.ws.rs.ApplicationPath;
-
-import com.jk.web.embedded.JKWebApplication;
 import com.jk.services.server.JKServiceConfig;
+import com.jk.web.embedded.JKWebApplication;
+
+import jakarta.ws.rs.ApplicationPath;
 
 @ApplicationPath("app")
 public class App extends JKServiceConfig{
