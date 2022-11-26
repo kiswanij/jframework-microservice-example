@@ -1,4 +1,4 @@
-# JKFramework Data NOSQL (Mongodb) Example
+# JKFramework-Service Example
 _Last updated: 2022-11-26_
 
 This repository contains a _JKFramework-Microservice_ to create a simple microservice.
