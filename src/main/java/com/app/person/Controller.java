@@ -1,6 +1,5 @@
-package com.app.service;
+package com.app.person;
 
-import com.app.model.Person;
 import com.jk.services.server.JKAbstractRestController;
 
 import jakarta.ws.rs.GET;
@@ -9,7 +8,7 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 
 @Path("/example")
-public class ExampleService extends JKAbstractRestController{
+public class Controller extends JKAbstractRestController{
 
 	@GET
 	@Path("hello")
@@ -25,7 +24,7 @@ public class ExampleService extends JKAbstractRestController{
 
 	@POST
 	@Path("/hello")
-	public String sayHelloWithBody(Person p) {
+	public String sayHelloWithBody(Model p) {
 		return "Hello, " + p.getName() + ", your age is: " + p.getAge();
 	}
 }

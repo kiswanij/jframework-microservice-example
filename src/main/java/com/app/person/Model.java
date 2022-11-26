@@ -1,6 +1,6 @@
-package com.app.model;
+package com.app.person;
 
-public class Person {
+public class Model {
 
 	private String name;
 
