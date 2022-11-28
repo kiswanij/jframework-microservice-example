@@ -5,8 +5,8 @@
 	<artifactId>jk-framework-microservice-example</artifactId>
 	<parent>
 		<groupId>com.jalalkiswani</groupId>
-		<artifactId>jk-webapp</artifactId>
-		<version>7.0.0-M1</version>
+		<artifactId>jk-app-webstack</artifactId>
+		<version>7.0.0-M2</version>
 	</parent>
 	<packaging>war</packaging>
 </project>
