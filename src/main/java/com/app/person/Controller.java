@@ -3,6 +3,7 @@ package com.app.person;
 import com.jk.services.server.JKAbstractRestController;
 
 import jakarta.ws.rs.GET;
+import jakarta.ws.rs.PATCH;
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
@@ -27,4 +28,10 @@ public class Controller extends JKAbstractRestController{
 	public String sayHelloWithBody(Model p) {
 		return "Hello, " + p.getName() + ", your age is: " + p.getAge();
 	}
+	
+	@PATCH
+	@Path("/hello2")
+	public String sayHelloWithBodyPatch(Model p) {
+		return "Hello from Patch, " + p.getName() + ", your age is: " + p.getAge();
+	}	
 }
