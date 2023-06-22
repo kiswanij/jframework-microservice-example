@@ -2,10 +2,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>jk-framework-microservice-example</artifactId>
+	<artifactId>j-framework-microservice-example</artifactId>
 	<parent>
 		<groupId>com.jalalkiswani</groupId>
-		<artifactId>jk-app-webstack</artifactId>
+		<artifactId>j-app-webstack</artifactId>
 		<version>7.0.0-SNAPSHOT</version>
 	</parent>
 	<packaging>war</packaging> 
