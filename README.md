@@ -1,7 +1,7 @@
-# JKFramework-Service Example
+# JFramework-Service Example
 _Last updated: 2022-11-26_
 
-This repository contains a _JKFramework-Microservice_ to create a simple microservice.
+This repository contains a _JFramework-Microservice_ to create a simple microservice.
 
 ## Prerequisites:
 - JDK 17+ Installed
